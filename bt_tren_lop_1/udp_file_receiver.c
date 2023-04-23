@@ -40,4 +40,6 @@ int main(int argc, char *argv[]) {
     fwrite(buf, 1, strlen(buf), file);
     fclose(file);
 
+    return 0;
+
 }
